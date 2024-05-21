@@ -474,6 +474,9 @@ ul {
     color: #FFFFFF;
     margin-bottom: 16px;
 }
+.footer-form{
+  display: flex;
+}
 .footer-sub {
     display: flex;
     gap: 24px;
@@ -495,8 +498,16 @@ ul {
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
+.footer-input::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
 .footer-button {
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     display: flex;
