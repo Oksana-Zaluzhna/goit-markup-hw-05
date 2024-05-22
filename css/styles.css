@@ -513,6 +513,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border-radius: 4px;
   text-align: center;
   color: #ffffff;
   min-width: 165px;
@@ -522,6 +523,8 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 16px;
+  cursor: pointer;
+  border: none;
 }
 .footer-button-icon{
   margin-left: 16px;
@@ -710,6 +713,8 @@ ul {
 .input-checkbox:checked + .input-checkbox-label .form-reviue-own-checkbox {
   background-color: #404bbf;
   border-color: #404bbf;
+  fill: #F4F4FD;
+  border: none;
 }
 .modal-form--btn {
   font-family: 'Roboto', sans-serif;
